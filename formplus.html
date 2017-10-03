@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>form plus</title>
+
+</head>
+<body>
+	<fieldset>
+		<legend>User information</legend>
+		<form action='' method="post">
+			<label>Username:<input type="search" placeholder="Please input your user name" autofocus autocomplete name="Username" required="required" /></label>
+			 <br/><br/>
+                   <label>age:<input type="number" placeholder="Please input your age" name="number" required="required" /></label>
+                   <br/><br/>
+                   birthday:<input type="date" name="date"/>
+                   <br/><br/>
+                   country:<input type="text" list="country" placeholder="Please select your country">
+                   <datalist id="country">
+                   	  <option>USA</option>
+                   	  <option>UK</option>
+                   	  <option>china</option>
+                   	  <option>canada</option>
+                   </datalist>
+                   email:<input type="email" />
+                   phone Number:<input type="tel" />
+                   color:<input type="color" />
+                   phote:<input type="file" multiple>
+                   <input type="submit" value="submit"/>
+
+		</form>
+	</fieldset>
+
+</body>
+</html>
